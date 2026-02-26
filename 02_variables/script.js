@@ -2,7 +2,7 @@
 // VARIABLES IN JAVASCRIPT
 
 
-// 1️⃣ let keyword
+// 1️. let keyword
 
 // let se variable declare karte hain
 // Yahan hum ek name variable bana rahe hain
@@ -23,7 +23,7 @@ console.log(name);
 
 
 
-// 2️⃣ const keyword
+// 2️.const keyword
 
 // const se variable banate hain jiska value change nahi hota
 
@@ -38,7 +38,7 @@ console.log(country);
 
 
 
-// 3️⃣ Different Data Types
+// 3️. Different Data Types
 
 // String (text)
 let city = "jsg";
@@ -63,7 +63,7 @@ console.log(emptyValue);
 
 
 
-// 4️⃣ Using Variables in HTML
+// 4️.Using Variables in HTML
 
 // HTML element ko pakad rahe hain
 let heading = document.getElementById("output");
@@ -75,7 +75,7 @@ heading.innerText = "My name is " + name + " and I live in " + city;
 
 
 
-// 5️⃣ Template Literals (Modern Way)
+// 5️.Template Literals (Modern Way)
 
 // Backtick ` ka use karte hain
 // ${} ke andar variable likhte hain
@@ -83,4 +83,3 @@ heading.innerText = "My name is " + name + " and I live in " + city;
 heading.innerText = `My name is ${name} and I live in ${city}. I am ${age} years old.`;
 
 
-// Ye modern aur clean way hai string banane ka
