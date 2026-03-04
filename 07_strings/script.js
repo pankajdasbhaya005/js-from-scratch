@@ -248,3 +248,15 @@ Output:
 Explanation:
 split string ko array me convert karta hai
 */
+
+// web dev example
+// Login validation:
+
+let username = "   pankaj   ";
+
+username = username.trim();
+
+console.log(username);
+
+// output: pankaj
+// Form validation me bohot use hota hai.
