@@ -389,3 +389,66 @@ false
 Explanation:
 check karta hai variable array hai ya nahi
 */  
+
+
+// 18. ARRAY.REVERSE()
+
+let nums5 = [1,2,3,4];
+nums5.reverse();
+console.log(nums5);
+
+/*
+Output:
+[4,3,2,1]
+
+Explanation:
+array ke elements ka order reverse karta hai
+*/  
+
+// 19. ARRAY.SORT()
+
+let nums6 = [40,10,30,20];
+nums6.sort(function(a,b){
+    return a - b;
+});
+console.log(nums6);
+
+/*
+Output:
+[10,20,30,40]
+
+Explanation:
+array ke elements ko ascending order me sort karta hai
+*/  
+
+// 20. ARRAY.FILL()
+
+let arr3 = new Array(5);
+arr3.fill(0);
+console.log(arr3);
+
+// Output:
+// [0,0,0,0,0]
+
+/*
+Explanation:
+array ke sare elements ko specified value se fill karta hai
+*/
+
+// Real Web Development Usage
+
+// 1.Rendering Lists (React)
+// users.map(user => console.log(user.name))
+
+// 2.Filtering Data
+//products.filter(product => product.price < 1000)
+
+// 3.Total Calculation
+// cart.reduce((total,item)=> total + item.price,0)
+
+// 4.API Data Handleling
+// fetch("https://api.example.com/data")
+// .then(response => response.json())
+// .then(data => console.log(data))
+
+
