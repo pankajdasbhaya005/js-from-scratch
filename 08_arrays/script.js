@@ -375,3 +375,17 @@ Output:
 Explanation:
 string ko array me convert karta hai
 */
+
+// 17. ARRAY.ISARRAY()
+
+console.log(Array.isArray(fruits));
+console.log(Array.isArray(str));
+
+/*
+Output:
+true
+false
+
+Explanation:
+check karta hai variable array hai ya nahi
+*/  
