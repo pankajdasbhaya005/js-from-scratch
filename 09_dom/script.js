@@ -223,3 +223,38 @@ Button clicked (console me)
 Explanation:
 User click karega to function run hoga
 */
+
+
+
+// BOM (Browser Object Model)
+
+// DOM → HTML ko control karta hai
+// BOM → browser ko control karta hai
+
+// current page URL
+console.log(window.location.href);
+
+// alert box
+window.alert("Hello");
+
+// browser width
+console.log(window.innerWidth);
+
+// browser height
+console.log(window.innerHeight);
+
+
+
+// (A)Real Web Dev Usage
+
+//--- DOM use hota hai:
+
+// 1.Form Validation
+// username input check
+
+// 2.Dynamic UI
+// cart items add/remove
+
+//3. React internally DOM handle karta hai
+// React ka concept:
+// Virtual DOM
