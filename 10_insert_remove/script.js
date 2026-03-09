@@ -155,3 +155,21 @@ newPara.replaceWith(replacePara);
 Explanation:
 replaceWith() ek element ko dusre se replace karta hai
 */
+
+
+// Real Web Development Usage
+// Insert / remove DOM use hota hai:
+
+// Todo app main
+// new task add karne mein aur task delete karne mein
+
+
+// Shopping cart
+// item add karne mein aur item remove karne mein
+
+
+// Chat apps
+// new message insert karne mein aur old message delete karne mein
+
+// Dynamic lists
+// API data render 
