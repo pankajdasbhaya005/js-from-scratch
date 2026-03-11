@@ -192,3 +192,27 @@ button.removeEventListener("click", sayHello);
 Explanation:
 removeEventListener se event remove ho jata hai
 */
+
+
+
+// Real Web Development Usage
+
+// Events use hote hain:
+
+// Button click actions (login button, submit button)
+
+
+// Form validation (email validation)
+
+
+
+// Keyboard shortcuts (search bar typing)
+
+
+
+// Dynamic UI (dropdown menu and modal open close)
+
+
+
+// Todo apps ( task add and  task remove)
+
