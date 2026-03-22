@@ -231,3 +231,24 @@ Welcome to dashboard, pankaj
 Explanation:
 Login ke baad dashboard show hua
 */
+
+
+// callbacks mein problem bhi aata hai 
+// jese ki nested ho jata hai , read karna muskil aur debug difficult 
+// isliye promises aur async/await ka use hota hai jo callbacks ke alternatives hain
+
+
+// Real Web Dev Usage
+// Callbacks use hote hain:
+
+// Events
+// button click
+
+// API calls
+// data load hone ke baad function run
+
+// Timers
+// setTimeout
+
+// Array methods
+// map, filter, forEach
